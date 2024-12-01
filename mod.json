@@ -1,38 +1,11 @@
 {
-	"geode": "4.0.1",
-	"gd": {
-		"win": "2.2074",
-		"android": "2.2074"
-	},
-	"id": "dogotrigger.cherrybadges",
-	"name": "Cherry Badges",
-	"version": "v1.0.8",
-	"developers": [ "dogotrigger", "LolsShow", "BlastiXCore", "MaximalDash" ],
-	"description": "This mod adds some cherry team badges using Badges API",
-	"resources": {
-		"sprites": [
-			"resources/*"
-		]
-	},
-	"dependencies": [
-		{
-			"id": "jouca.badgesapi",
-			"version": ">=v1.2.0",
-			"importance": "required"
-		},
-		{
-			"id": "geode.node-ids",
-			"importance": "required",
-			"version": ">=v1.17.0"
-		}
-	],
-	"issues": {
-		"info": "You can report issues about Cherry Badges in <cy>the mod's repository</c>.",
-		"url": "https://github.com/SergeyMC9730/cherrybadges"
-	},
-	"repository": "https://github.com/SergeyMC9730/cherrybadges",
-	"links": {
-		"repository": "https://github.com/SergeyMC9730/cherrybadges"
-	},
-	"tags": [ "online", "enhancement" ]
+  "geode": "4.0.1",
+  "gd": {"android": "2.2074", "win": "2.2074"},
+  "version": "v1.0.0",
+  "id": "saritahhh.editor_wave_trail",
+  "name": "Standalone Editor Wave Trail",
+  "developer": "Saritahhh",
+  "description": "Standalone QOLMod Editor Wave Trail for personal uses !!",
+  "repository": "https://github.com/DeepRsnanceX/editor-wave-trail",
+  "tags": ["offline", "gameplay", "customization"]
 }
