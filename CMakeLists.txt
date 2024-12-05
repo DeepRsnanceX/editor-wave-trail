@@ -19,4 +19,6 @@ endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
+
 setup_geode_mod(${PROJECT_NAME})
