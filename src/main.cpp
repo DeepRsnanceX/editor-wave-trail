@@ -4,13 +4,16 @@
 
 using namespace geode::prelude;
 
-class $mod(VisualCheckpoints) : public Mod {
+class VisualCheckpoints : public Mod {
 public:
     void onEnable() override {
         CheckpointManager::init();
         HUDManager::init();
     }
+
     void onDisable() override {
         CheckpointManager::clear();
     }
 };
+
+GEODE_MOD(VisualCheckpoints);
